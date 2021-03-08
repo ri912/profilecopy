@@ -1,0 +1,370 @@
+@charset"utf-8"
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*ここから^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+.main1{
+    width: 338px;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    color: #222222;
+    line-height: 36px;
+    float: left;
+}
+.main1 h1{
+    margin-left: 78px;
+    font-size: 48px;
+    font-weight: bolder;  
+}
+.main2{
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.start {
+    background-color: rgb(232,33,94);
+    border-radius: 10px;
+    width: 138px;
+    height: 56px;
+    font-size: 20px;
+    color: #ffffff;
+    border-style: none;
+}
+.container{
+    display: flex;
+}
+.people{
+    line-height: 25px;
+}
+.people img{
+    width: 322px;
+    height: 425px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 15px;
+}
+.people a{
+    color: #222222;
+    font-size: 14px;
+    text-decoration: underline;
+}
+h2{
+    font-size: 24px;
+}
+   
+/*ホスティングの流れを確認しよう*/
+.hosting h2{
+    font-size: 44px;
+    font-weight: bolder;
+    margin-top: 78px;
+    margin-bottom: 48px;
+    margin-left: 80px;
+}
+.hostinglist{
+    display: flex;
+}
+.hostinglist:first-child{
+    margin-left: 70px;
+}
+.hostingflow img{
+    width: 320px;
+    height: 202px; 
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 15px;
+}
+.hostingflow h3{
+    font-family:  Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    font-size: 18px;
+    font-weight: : bolder;
+}
+.hostingflow p{
+   line-height: 25px;
+   margin-bottom: 176px;
+}
+
+
+
+/*お城からコンドミニアムまで*/
+.housemenu{
+    font-size: 42px;
+    font-weight: bolder;
+    padding: 28px;
+    margin-left: 80px;
+}
+#housetype{
+    display: flex;
+}
+#housetype:firist-child{
+    margin-left: 80px;
+}
+.house img{
+    width:185px;
+    height:124px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 15px; 
+    margin-right: 15px;
+}
+.house img:first-child{
+    
+}
+
+.house p:first-child{
+    margin-left: 80px;
+}
+.house p{
+    font-weight: bold;
+    margin-bottom: 80px;  
+}
+
+/*ホストの安全を守る*/
+.promisemenu{
+    font-size: 42px;
+    font-weight: bolder;
+    margin-top: 77px;
+    margin-bottom: 46px;
+    margin-left: 80px;
+}
+.promise{
+    display: flex;
+    justify-content: space-around;
+}
+.promise h3{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 80px;
+}
+.promissetype{
+
+}
+.promisetype p{ 
+    line-height: 24px;
+    margin: 25px;
+    margin-left: 80px;
+}
+.promisetype a{
+    color: #222222;
+    text-decoration: underline;
+    margin-left: 80px;
+}
+
+
+/*ホストになる*/
+.backimg{
+    color: white;
+    font-weight: bolder;
+    background-image: url(gazou1/c905ffe8-57d8-4b98-94fa-a7bed819c7d0.webp);
+}
+.backimghost{
+    font-size: 18px;
+    margin-top: 110px;
+    margin-bottom: 54px;
+    margin-left: 79px; 
+}
+.backimgq{
+    font-size: 20px; 
+}
+.backimga{
+
+}
+.money{
+    color: rgb(232,33,94);
+}
+.backimgb{
+    margin-top: 41px;
+    margin-bottom: 30px;????????
+}
+.backimglink a{
+    color: white;
+    text-decoration: underline;
+    margin: 25px;
+}
+
+
+/*すべてのホストをサポート*/
+.suport{
+    color: #333333;
+    font-size: 32px;
+    font-weight: bolder;
+}
+.suportmenu{
+    color: #222222;
+    font-size: 24px;
+    font-weight: bolder;
+    list-style-type: none;
+}
+.suportlist{
+    line-height: 50px;
+}
+.suportc{
+    color: #222222;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+}
+section div#suport1{
+    width: 50%;
+    float: left;
+    margin-top: 75px;
+}
+section div#suport2{
+    width: 50%;
+    float: right;
+    margin-top: 75px;
+}
+
+
+/*ホスティングをはじめよう*/
+#hostingstart{
+    background: url('gazou1/0c53c5bc-30f1-4a24-8f45-f090d5d88427.jpg') no-repeat;
+    background-size: 1352px 550px;
+}
+
+
+/*ホスティング関する詳細*/
+#mailtel{
+    color: #717171;
+}
+.entry a{
+    color: #717171;
+}
+
+/*企業情報～*/
+.navigation{
+    display: flex;
+}
+
+.menu{
+    float: left;
+    margin: 20px 26px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.under{
+    color: #222222;
+    font-size: 14px;
+    list-style-type: none;
+    margin: 10px;
+}
+.under a{
+    font-family: inherit;
+    color: #222222;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.menu li{
+    font-size: 14px;
+    padding-bottom: 12px;
+}
+/*footer*/
+.footer{
+    display: flex;
+}
+
+.language{
+    float: right;
+}
